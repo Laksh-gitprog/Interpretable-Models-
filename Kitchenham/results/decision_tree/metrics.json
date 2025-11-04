@@ -1,0 +1,21 @@
+{
+  "model": "Decision Tree",
+  "best_params": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "splitter": "random"
+  },
+  "test_metrics": {
+    "mae": 1456.758024691358,
+    "rmse": 3148.500215260248,
+    "r2": 0.020986594587411145,
+    "mmre": 57.828759928038586,
+    "mdmre": 43.86916778824585,
+    "sa": 29.629629629629626
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 5956.618877958339
+  }
+}

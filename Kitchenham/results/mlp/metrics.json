@@ -1,0 +1,24 @@
+{
+  "model": "MLP",
+  "best_params": {
+    "activation": "relu",
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+      50
+    ],
+    "learning_rate": "constant",
+    "max_iter": 500,
+    "solver": "lbfgs"
+  },
+  "test_metrics": {
+    "mae": 1651.0415709038732,
+    "rmse": 2383.3721033035617,
+    "r2": 0.4389973827611209,
+    "mmre": 119.3707625829519,
+    "mdmre": 51.04869500761876,
+    "sa": 25.925925925925924
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 3559.049420579431
+  }
+}
