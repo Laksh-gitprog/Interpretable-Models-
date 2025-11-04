@@ -1,0 +1,27 @@
+{
+  "model": "Ridge Regression",
+  "test_metrics": {
+    "mae": 430.592276828595,
+    "rmse": 1244.6172996811815,
+    "r2": 0.9484631987124204,
+    "mmre": 34.18041248949858,
+    "mdmre": 10.700502678503995,
+    "sa": 74.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 918.9541046505876,
+    "cv_folds": 5
+  },
+  "best_params": {
+    "alpha": 0.001,
+    "fit_intercept": true,
+    "solver": "lsqr"
+  },
+  "data_info": {
+    "train_samples": 399,
+    "test_samples": 100,
+    "n_features": 17,
+    "target_mean": 3921.048096192385,
+    "target_std": 6480.855599912643
+  }
+}

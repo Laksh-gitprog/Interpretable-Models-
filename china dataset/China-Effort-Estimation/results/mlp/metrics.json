@@ -1,0 +1,44 @@
+{
+  "model": "MLP (Multi-Layer Perceptron)",
+  "test_metrics": {
+    "mae": 143.79114037736426,
+    "rmse": 469.1650334347316,
+    "r2": 0.9926768645433618,
+    "mmre": 6.247709171961064,
+    "mdmre": 1.663536626296091,
+    "sa": 95.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 518.7583055611113,
+    "cv_folds": 5
+  },
+  "best_params": {
+    "activation": "relu",
+    "alpha": 0.01,
+    "hidden_layer_sizes": [
+      100,
+      50,
+      25
+    ],
+    "learning_rate": "constant",
+    "max_iter": 1000,
+    "solver": "lbfgs"
+  },
+  "model_architecture": {
+    "n_layers": 3,
+    "hidden_layer_sizes": [
+      100,
+      50,
+      25
+    ],
+    "n_iterations": 1000,
+    "loss": 32.13349941097127
+  },
+  "data_info": {
+    "train_samples": 399,
+    "test_samples": 100,
+    "n_features": 17,
+    "target_mean": 3921.048096192385,
+    "target_std": 6480.855599912643
+  }
+}

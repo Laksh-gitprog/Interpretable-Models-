@@ -1,0 +1,20 @@
+{
+  "model": "SVM",
+  "best_params": {
+    "C": 100,
+    "epsilon": 0.5,
+    "gamma": "scale",
+    "kernel": "linear"
+  },
+  "test_metrics": {
+    "mae": 2293.775720224416,
+    "rmse": 3458.995566289867,
+    "r2": 0.16243495842549727,
+    "mmre": 34.09153127143168,
+    "mdmre": 33.62021880614877,
+    "sa": 37.5
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 2878.3948979515035
+  }
+}

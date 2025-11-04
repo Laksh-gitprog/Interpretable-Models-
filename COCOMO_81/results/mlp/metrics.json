@@ -1,0 +1,24 @@
+{
+  "model": "MLP",
+  "best_params": {
+    "activation": "logistic",
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+      100
+    ],
+    "learning_rate": "constant",
+    "max_iter": 1000,
+    "solver": "lbfgs"
+  },
+  "test_metrics": {
+    "mae": 413.86301785615245,
+    "rmse": 645.7819646216103,
+    "r2": -0.34952198280621616,
+    "mmre": 327.54510627311214,
+    "mdmre": 101.28325696235775,
+    "sa": 0.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 1011.3202523716494
+  }
+}

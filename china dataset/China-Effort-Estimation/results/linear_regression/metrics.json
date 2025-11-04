@@ -1,0 +1,26 @@
+{
+  "model": "Linear Regression",
+  "test_metrics": {
+    "mae": 437.58860790660344,
+    "rmse": 1288.8301046298716,
+    "r2": 0.9447366589950237,
+    "mmre": 34.92677003227829,
+    "mdmre": 10.482439193366785,
+    "sa": 74.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 913.9422829678185,
+    "cv_folds": 5
+  },
+  "best_params": {
+    "fit_intercept": true,
+    "positive": false
+  },
+  "data_info": {
+    "train_samples": 399,
+    "test_samples": 100,
+    "n_features": 17,
+    "target_mean": 3921.048096192385,
+    "target_std": 6480.855599912643
+  }
+}

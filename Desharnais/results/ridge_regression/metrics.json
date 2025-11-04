@@ -1,0 +1,19 @@
+{
+  "model": "Ridge Regression",
+  "best_params": {
+    "alpha": 10.0,
+    "fit_intercept": true,
+    "solver": "lsqr"
+  },
+  "test_metrics": {
+    "mae": 2173.6671446253354,
+    "rmse": 3070.493052748973,
+    "r2": 0.34001392893815774,
+    "mmre": 33.297683165346,
+    "mdmre": 32.684711748336106,
+    "sa": 31.25
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 2936.9229028243453
+  }
+}

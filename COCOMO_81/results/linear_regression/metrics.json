@@ -1,0 +1,18 @@
+{
+  "model": "Linear Regression",
+  "best_params": {
+    "fit_intercept": true,
+    "positive": true
+  },
+  "test_metrics": {
+    "mae": 692.9455336004838,
+    "rmse": 798.997633275431,
+    "r2": -1.0658516211901072,
+    "mmre": 3449.298251344251,
+    "mdmre": 765.8223069414308,
+    "sa": 15.384615384615385
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 1466.9489484281407
+  }
+}

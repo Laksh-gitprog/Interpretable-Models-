@@ -1,0 +1,28 @@
+{
+  "model": "SVM",
+  "test_metrics": {
+    "mae": 315.48203039191714,
+    "rmse": 857.4708183654851,
+    "r2": 0.9755384207756591,
+    "mmre": 14.029713174430128,
+    "mdmre": 6.37603837599017,
+    "sa": 87.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 952.1432803564123,
+    "cv_folds": 5
+  },
+  "best_params": {
+    "C": 100,
+    "epsilon": 0.5,
+    "gamma": "scale",
+    "kernel": "linear"
+  },
+  "data_info": {
+    "train_samples": 399,
+    "test_samples": 100,
+    "n_features": 17,
+    "target_mean": 3921.048096192385,
+    "target_std": 6480.855599912643
+  }
+}

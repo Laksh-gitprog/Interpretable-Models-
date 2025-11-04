@@ -1,0 +1,22 @@
+{
+  "model": "Random Forest",
+  "best_params": {
+    "bootstrap": true,
+    "max_depth": 3,
+    "max_features": "sqrt",
+    "min_samples_leaf": 4,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "test_metrics": {
+    "mae": 2510.8597479942237,
+    "rmse": 3586.718097132703,
+    "r2": 0.09943923946472233,
+    "mmre": 37.118219956606616,
+    "mdmre": 37.7007163022933,
+    "sa": 37.5
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 3002.033667981734
+  }
+}

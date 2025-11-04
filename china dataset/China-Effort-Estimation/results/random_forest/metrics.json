@@ -1,0 +1,30 @@
+{
+  "model": "Random Forest",
+  "test_metrics": {
+    "mae": 496.3377490373663,
+    "rmse": 1761.2904619066164,
+    "r2": 0.8967933313537414,
+    "mmre": 22.565640288700827,
+    "mdmre": 11.584830616462716,
+    "sa": 82.0
+  },
+  "cv_metrics": {
+    "best_cv_rmse": 1245.8974075758747,
+    "cv_folds": 5
+  },
+  "best_params": {
+    "bootstrap": false,
+    "max_depth": 5,
+    "max_features": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "data_info": {
+    "train_samples": 399,
+    "test_samples": 100,
+    "n_features": 17,
+    "target_mean": 3921.048096192385,
+    "target_std": 6480.855599912643
+  }
+}
